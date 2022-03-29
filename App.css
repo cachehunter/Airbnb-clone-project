@@ -1,0 +1,102 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+  /*nav bar on top classes*/
+.nav-box {
+    Height:85px;
+    length:auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+/* nav bar logo size*/
+.nav-logo{
+    position: absolute;
+    height:55px;
+    margin:15px;
+}
+
+  /* trips img */
+.img {
+    width:1900px;
+    margin-top: 26px;
+    align-self: center;
+}
+
+  /* text just above trip options */
+.text {
+    margin-top:80px;
+    margin-left: 475px;
+}
+
+  /* title text above trip options */
+.pop {
+    position: absolute;
+    right: 750px;
+}
+
+/* trip options */
+.cards-list {
+    display: flex;
+    flex-direction: row;
+    margin-left: 485px;
+    margin-top: 0px;
+}
+
+.card {
+   position: relative;
+   top: 12px;
+   margin-top: 10px;
+   margin-left: 36px;
+   margin-bottom: 75px;
+   display: flex;
+   flex-direction: column;
+}
+
+.trip-img {
+   width:275px;
+   height:400px;
+   border-radius: 9px;
+}
+
+.title {
+   font-weight: 600;
+   line-height: 39.6px;
+   font-size: 16px;
+   margin-bottom: 6px;
+}
+
+.card .star-div {
+   margin-top: 9px;
+   display: flex;
+   gap:2px;
+   align-items: center;
+}
+
+.card .star-div .star {
+    height: 14px;
+}
+
+.card .star-div .gray {
+    color: #918E9B;
+}
+
+.card p,span {
+    margin-top: 7px;
+    font-size: 12px;
+    line-height:10px;
+    font-weight: 400;
+}
+
+.badge {
+    position:absolute;
+    top:6px;
+    left:6px;
+    background-color: white;
+    padding:5px 7px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 12px;
+}
